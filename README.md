@@ -1,6 +1,6 @@
-# Interact::Rails
+# interact-rails
 
-TODO: Write a gem description
+A gem to easily let you add the amazing [interact.js](http://interactjs.io/) library into a rails application
 
 ## Installation
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 In your JavaScript maniftest (e.g. `application.js`)
 
-//= require interact
+    //= require interact
 
 ## Contributing
 

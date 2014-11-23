@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["anthony.s.ross@gmail.com"]
   spec.summary       = %q{Gem for easily adding Interact.js to the Rails Asset Pipeline}
   spec.description   = %q{Gem that includes Interact.js for Rails}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/allcentury/interact-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "railties", ">= 4.1.6", "< 5.0"
+  spec.add_dependency "railties"
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
 end
