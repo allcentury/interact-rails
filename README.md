@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your JavaScript maniftest (e.g. `application.js`)
+
+//= require interact
 
 ## Contributing
 

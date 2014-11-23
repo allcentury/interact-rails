@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Interact::Rails::VERSION
   spec.authors       = ["Anthony Ross"]
   spec.email         = ["anthony.s.ross@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Gem for easily adding Interact.js to the Rails Asset Pipeline}
+  spec.description   = %q{Gem that includes Interact.js for Rails}
   spec.homepage      = ""
   spec.license       = "MIT"
 
