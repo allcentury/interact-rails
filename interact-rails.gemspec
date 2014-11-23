@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'interact/version'
+require 'interact/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "interact-rails"
-  spec.version       = Interact::VERSION
+  spec.version       = Interact::Rails::VERSION
   spec.authors       = ["Anthony Ross"]
   spec.email         = ["anthony.s.ross@gmail.com"]
   spec.summary       = %q{Gem for easily adding Interact.js to the Rails Asset Pipeline}
@@ -18,8 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "railties", "~> 3.1"
+  spec.add_dependency "railties", ">= 4.1.6", "< 5.0"
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "rails", "~> 3.1"
 end
