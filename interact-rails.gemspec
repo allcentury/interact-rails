@@ -5,7 +5,7 @@ require 'interact/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "interact-rails"
-  spec.version       = Interact::Rails::VERSION
+  spec.version       = Interact::VERSION
   spec.authors       = ["Anthony Ross"]
   spec.email         = ["anthony.s.ross@gmail.com"]
   spec.summary       = %q{Gem for easily adding Interact.js to the Rails Asset Pipeline}
